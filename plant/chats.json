@@ -1,0 +1,27 @@
+[
+  {
+    "user_id": 2,
+    "user_message": "hi",
+    "bot_reply": "Hello! \ud83d\udc4b I\u2019m your PlantDoctor \ud83c\udf3f. How can I help your plants today?"
+  },
+  {
+    "user_id": 2,
+    "user_message": "Hi",
+    "bot_reply": "Hello! \ud83d\udc4b I\u2019m your PlantDoctor \ud83c\udf3f. How can I help your plants today?"
+  },
+  {
+    "user_id": 2,
+    "user_message": "what type of soil should i use?",
+    "bot_reply": "\ud83e\udeb4 Could you tell me more details \u2014 color, spots, or any insects?"
+  },
+  {
+    "user_id": 2,
+    "user_message": "soil for plants",
+    "bot_reply": "\ud83d\udc9a Plants are pure magic! They bring peace, beauty, and oxygen."
+  },
+  {
+    "user_id": 2,
+    "user_message": "soil",
+    "bot_reply": "\ud83c\udf31 Use well-draining soil. For succulents, use cactus mix; for flowering plants, use loamy soil."
+  }
+]

@@ -1,0 +1,612 @@
+{
+  "plant_diseases": [
+    {
+      "class": "Apple___Apple_scab",
+      "symptoms": [
+        "Olive-green or brown spots on leaves",
+        "Velvety lesions on fruits",
+        "Distorted and cracked fruits",
+        "Premature leaf drop"
+      ],
+      "solutions": [
+        "Apply fungicides containing captan or myclobutanil",
+        "Prune infected branches and leaves",
+        "Rake and destroy fallen leaves",
+        "Plant resistant varieties"
+      ],
+      "keywords": ["scab", "olive-green", "velvety", "leaf spots", "fruit lesions"]
+    },
+    {
+      "class": "Apple___Black_rot",
+      "symptoms": [
+        "Circular brown spots on leaves with dark margins",
+        "Black rot on fruits with concentric rings",
+        "Cankers on branches",
+        "Fruit mummification"
+      ],
+      "solutions": [
+        "Remove and destroy infected fruits and branches",
+        "Apply fungicides like thiophanate-methyl",
+        "Prune to improve air circulation",
+        "Sanitize tools between cuts"
+      ],
+      "keywords": ["black rot", "circular spots", "concentric rings", "cankers", "mummification"]
+    },
+    {
+      "class": "Apple___Cedar_apple_rust",
+      "symptoms": [
+        "Bright orange-yellow spots on leaves",
+        "Tiny black dots in the center of spots",
+        "Swollen galls on twigs",
+        "Premature defoliation"
+      ],
+      "solutions": [
+        "Apply protective fungicides before bloom",
+        "Remove nearby juniper or cedar trees",
+        "Plant resistant varieties",
+        "Rake and destroy fallen leaves"
+      ],
+      "keywords": ["rust", "orange-yellow spots", "galls", "juniper", "cedar"]
+    },
+    {
+      "class": "Apple___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Normal leaf color and texture",
+        "Firm, well-formed fruits",
+        "Vigorous growth"
+      ],
+      "solutions": [
+        "Maintain regular watering and fertilization",
+        "Prune for good air circulation",
+        "Monitor for early signs of disease",
+        "Apply preventive sprays during high-risk periods"
+      ],
+      "keywords": ["healthy", "normal", "vigorous", "disease-free"]
+    },
+    {
+      "class": "Blueberry___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Uniform green leaves",
+        "Firm, plump berries",
+        "Normal growth pattern"
+      ],
+      "solutions": [
+        "Maintain proper soil pH (4.5-5.5)",
+        "Ensure adequate watering",
+        "Apply appropriate fertilizer",
+        "Mulch to retain moisture and suppress weeds"
+      ],
+      "keywords": ["healthy", "uniform green", "plump berries", "normal growth"]
+    },
+    {
+      "class": "Cherry___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Glossy green leaves",
+        "Firm, well-colored fruits",
+        "Strong branch structure"
+      ],
+      "solutions": [
+        "Provide regular watering during dry periods",
+        "Apply balanced fertilizer in early spring",
+        "Prune to maintain open center",
+        "Net to protect from birds"
+      ],
+      "keywords": ["healthy", "glossy green", "firm fruit", "strong branches"]
+    },
+    {
+      "class": "Cherry___Powdery_mildew",
+      "symptoms": [
+        "White powdery coating on leaves",
+        "Distorted and stunted growth",
+        "Yellowing of leaves",
+        "Reduced fruit quality"
+      ],
+      "solutions": [
+        "Apply fungicides containing sulfur or potassium bicarbonate",
+        "Prune to improve air circulation",
+        "Avoid overhead watering",
+        "Plant resistant varieties"
+      ],
+      "keywords": ["powdery", "white coating", "distorted growth", "sulfur treatment"]
+    },
+    {
+      "class": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+      "symptoms": [
+        "Rectangular gray lesions on leaves",
+        "Yellowing and death of leaf tissue",
+        "Lesions parallel to leaf veins",
+        "Lower leaves affected first"
+      ],
+      "solutions": [
+        "Rotate crops with non-host plants",
+        "Apply fungicides containing azoxystrobin",
+        "Use resistant hybrids",
+        "Till under crop residue after harvest"
+      ],
+      "keywords": ["gray leaf spot", "rectangular lesions", "parallel to veins", "cercospora"]
+    },
+    {
+      "class": "Corn___Common_rust",
+      "symptoms": [
+        "Circular to oval reddish-brown pustules",
+        "Powdery spores when rubbed",
+        "Yellowing of leaves",
+        "Severe cases cause leaf death"
+      ],
+      "solutions": [
+        "Plant resistant hybrids",
+        "Apply fungicides with azoxystrobin or propiconazole",
+        "Rotate crops",
+        "Destroy infected crop residue"
+      ],
+      "keywords": ["rust", "reddish-brown pustules", "powdery spores", "common rust"]
+    },
+    {
+      "class": "Corn___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Uniform green leaves",
+        "Strong stalk development",
+        "Normal tassel and ear formation"
+      ],
+      "solutions": [
+        "Maintain proper fertilization",
+        "Provide adequate irrigation",
+        "Control weeds",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "uniform green", "strong stalk", "normal development"]
+    },
+    {
+      "class": "Corn___Northern_Leaf_Blight",
+      "symptoms": [
+        "Long, cigar-shaped gray-green lesions",
+        "Lesions that turn tan with age",
+        "Lower leaves affected first",
+        "Severe cases cause significant yield loss"
+      ],
+      "solutions": [
+        "Plant resistant hybrids",
+        "Rotate crops",
+        "Apply fungicides containing mancozeb",
+        "Till under crop residue"
+      ],
+      "keywords": ["northern leaf blight", "cigar-shaped lesions", "gray-green", "exserohilum"]
+    },
+    {
+      "class": "Grape___Black_rot",
+      "symptoms": [
+        "Circular brown spots on leaves",
+        "Black rot on berries with concentric rings",
+        "Withered and mummified fruits",
+        "Cankers on tendrils and stems"
+      ],
+      "solutions": [
+        "Apply protective fungicides during early growth",
+        "Remove and destroy mummified fruits",
+        "Prune to improve air circulation",
+        "Plant resistant varieties"
+      ],
+      "keywords": ["black rot", "circular spots", "mummified fruits", "concentric rings"]
+    },
+    {
+      "class": "Grape___Esca_(Black_Measles)",
+      "symptoms": [
+        "Tiger-stripe pattern on leaves",
+        "Dark streaks in woody tissues",
+        "Berry shriveling",
+        "Slow vine decline"
+      ],
+      "solutions": [
+        "Remove and destroy infected vines",
+        "Disinfect pruning tools",
+        "Avoid wounding trunks",
+        "Apply fungicides to pruning wounds"
+      ],
+      "keywords": ["esca", "black measles", "tiger-stripe", "vine decline", "streaks"]
+    },
+    {
+      "class": "Grape___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Deep green, healthy leaves",
+        "Firm, well-developed berries",
+        "Vigorous vine growth"
+      ],
+      "solutions": [
+        "Maintain proper pruning",
+        "Provide adequate water during dry periods",
+        "Apply balanced fertilizer",
+        "Ensure good air circulation"
+      ],
+      "keywords": ["healthy", "deep green", "firm berries", "vigorous growth"]
+    },
+    {
+      "class": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "symptoms": [
+        "Small reddish-brown spots on leaves",
+        "Spots with dark brown margins",
+        "Yellowing around spots",
+        "Premature leaf drop"
+      ],
+      "solutions": [
+        "Apply fungicides containing mancozeb",
+        "Remove and destroy fallen leaves",
+        "Prune to improve air circulation",
+        "Avoid overhead irrigation"
+      ],
+      "keywords": ["leaf blight", "reddish-brown spots", "isariopsis", "leaf spot"]
+    },
+    {
+      "class": "Orange___Haunglongbing_(Citrus_Greening)",
+      "symptoms": [
+        "Asymmetrical yellow blotching on leaves",
+        "Vein yellowing and corking",
+        "Small, lopsided, bitter fruits",
+        "Tree decline and death"
+      ],
+      "solutions": [
+        "Remove infected trees",
+        "Control Asian citrus psyllid insect vector",
+        "Use certified disease-free nursery stock",
+        "Apply nutritional supplements to extend tree life"
+      ],
+      "keywords": ["huanglongbing", "citrus greening", "yellow blotching", "psyllid", "lopsided fruits"]
+    },
+    {
+      "class": "Peach___Bacterial_spot",
+      "symptoms": [
+        "Small, angular, water-soaked spots on leaves",
+        "Spots that eventually turn purple-brown",
+        "Cankers on twigs and branches",
+        "Fruit spotting and cracking"
+      ],
+      "solutions": [
+        "Apply copper-based bactericides during dormancy",
+        "Plant resistant varieties",
+        "Prune to improve air circulation",
+        "Avoid overhead irrigation"
+      ],
+      "keywords": ["bacterial spot", "angular spots", "water-soaked", "cankers", "cracking"]
+    },
+    {
+      "class": "Peach___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Bright green, healthy leaves",
+        "Firm, well-formed fruits",
+        "Vigorous growth"
+      ],
+      "solutions": [
+        "Maintain regular watering and fertilization",
+        "Prune annually for good structure",
+        "Thin fruits for better size",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "bright green", "firm fruit", "vigorous growth"]
+    },
+    {
+      "class": "Pepper,_bell___Bacterial_spot",
+      "symptoms": [
+        "Water-soaked spots on leaves",
+        "Spots that become necrotic with yellow halos",
+        "Raised scabby lesions on fruits",
+        "Leaf drop in severe cases"
+      ],
+      "solutions": [
+        "Use disease-free seeds and transplants",
+        "Apply copper-based bactericides",
+        "Rotate with non-host crops",
+        "Avoid overhead irrigation"
+      ],
+      "keywords": ["bacterial spot", "water-soaked", "yellow halos", "scabby lesions"]
+    },
+    {
+      "class": "Pepper,_bell___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Dark green, healthy leaves",
+        "Firm, glossy fruits",
+        "Strong stem structure"
+      ],
+      "solutions": [
+        "Provide consistent moisture",
+        "Apply balanced fertilizer",
+        "Ensure adequate sunlight",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "dark green", "firm fruit", "strong stems"]
+    },
+    {
+      "class": "Potato___Early_blight",
+      "symptoms": [
+        "Dark brown spots with concentric rings on leaves",
+        "Yellowing of leaves around spots",
+        "Stem lesions",
+        "Tuber rot in severe cases"
+      ],
+      "solutions": [
+        "Apply fungicides containing chlorothalonil",
+        "Rotate crops with non-solanaceous plants",
+        "Use certified disease-free seed potatoes",
+        "Maintain proper fertility"
+      ],
+      "keywords": ["early blight", "concentric rings", "dark brown spots", "alternaria"]
+    },
+    {
+      "class": "Potato___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Green, healthy foliage",
+        "Normal tuber development",
+        "Vigorous growth"
+      ],
+      "solutions": [
+        "Practice crop rotation",
+        "Use certified seed potatoes",
+        "Hill plants properly",
+        "Provide consistent moisture"
+      ],
+      "keywords": ["healthy", "green foliage", "normal tubers", "vigorous growth"]
+    },
+    {
+      "class": "Potato___Late_blight",
+      "symptoms": [
+        "Water-soaked spots on leaves",
+        "White cottony growth on undersides of leaves",
+        "Blackened, rotting tubers",
+        "Rapid plant collapse"
+      ],
+      "solutions": [
+        "Apply protective fungicides containing metalaxyl",
+        "Destroy infected plant material",
+        "Ensure good drainage",
+        "Use resistant varieties"
+      ],
+      "keywords": ["late blight", "water-soaked", "white cottony", "phytophthora", "tuber rot"]
+    },
+    {
+      "class": "Raspberry___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Green, healthy leaves",
+        "Firm, well-formed berries",
+        "Strong cane development"
+      ],
+      "solutions": [
+        "Prune canes regularly",
+        "Provide support for canes",
+        "Mulch to retain moisture",
+        "Ensure good air circulation"
+      ],
+      "keywords": ["healthy", "green leaves", "firm berries", "strong canes"]
+    },
+    {
+      "class": "Soybean___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Uniform green trifoliate leaves",
+        "Normal pod development",
+        "Healthy root nodules"
+      ],
+      "solutions": [
+        "Rotate crops",
+        "Apply appropriate inoculants",
+        "Maintain proper soil fertility",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "trifoliate", "normal pods", "root nodules"]
+    },
+    {
+      "class": "Squash___Powdery_mildew",
+      "symptoms": [
+        "White powdery coating on leaves",
+        "Yellowing and death of leaves",
+        "Stunted growth",
+        "Poor fruit development"
+      ],
+      "solutions": [
+        "Apply fungicides containing sulfur or neem oil",
+        "Improve air circulation",
+        "Plant resistant varieties",
+        "Avoid overhead watering"
+      ],
+      "keywords": ["powdery mildew", "white coating", "yellowing", "sulfur treatment"]
+    },
+    {
+      "class": "Strawberry___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Dark green, healthy leaves",
+        "Firm, red berries",
+        "Vigorous runner production"
+      ],
+      "solutions": [
+        "Provide consistent moisture",
+        "Mulch around plants",
+        "Renew beds every few years",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "dark green", "firm berries", "vigorous runners"]
+    },
+    {
+      "class": "Strawberry___Leaf_scorch",
+      "symptoms": [
+        "Purple-red spots on leaves",
+        "Spots with gray centers",
+        "Leaves turning brown and dying",
+        "Reduced fruit production"
+      ],
+      "solutions": [
+        "Apply fungicides containing captan",
+        "Remove and destroy infected leaves",
+        "Improve air circulation",
+        "Avoid overhead irrigation"
+      ],
+      "keywords": ["leaf scorch", "purple-red spots", "gray centers", "diplocarpon"]
+    },
+    {
+      "class": "Tomato___Bacterial_spot",
+      "symptoms": [
+        "Small, water-soaked spots on leaves",
+        "Spots that become dark and raised",
+        "Yellowing of leaf margins",
+        "Fruit spotting and scabbing"
+      ],
+      "solutions": [
+        "Use disease-free seeds and transplants",
+        "Apply copper-based bactericides",
+        "Rotate with non-host crops",
+        "Avoid overhead irrigation"
+      ],
+      "keywords": ["bacterial spot", "water-soaked", "raised spots", "scabbing"]
+    },
+    {
+      "class": "Tomato___Early_blight",
+      "symptoms": [
+        "Dark brown spots with concentric rings on lower leaves",
+        "Yellowing of leaves",
+        "Stem cankers",
+        "Fruit rot near stem end"
+      ],
+      "solutions": [
+        "Apply fungicides containing chlorothalonil",
+        "Mulch to prevent soil splash",
+        "Remove lower leaves",
+        "Rotate crops"
+      ],
+      "keywords": ["early blight", "concentric rings", "dark brown spots", "alternaria"]
+    },
+    {
+      "class": "Tomato___healthy",
+      "symptoms": [
+        "No visible disease symptoms",
+        "Green, healthy leaves",
+        "Firm, well-formed fruits",
+        "Vigorous growth"
+      ],
+      "solutions": [
+        "Provide consistent moisture",
+        "Stake or cage plants",
+        "Apply balanced fertilizer",
+        "Monitor for pests and diseases"
+      ],
+      "keywords": ["healthy", "green leaves", "firm fruit", "vigorous growth"]
+    },
+    {
+      "class": "Tomato___Late_blight",
+      "symptoms": [
+        "Water-soaked spots on leaves",
+        "White cottony growth on undersides of leaves",
+        "Dark, greasy-looking blotches on stems",
+        "Firm, brown rot on fruits"
+      ],
+      "solutions": [
+        "Apply protective fungicides containing metalaxyl",
+        "Destroy infected plant material",
+        "Ensure good air circulation",
+        "Use resistant varieties"
+      ],
+      "keywords": ["late blight", "water-soaked", "white cottony", "phytophthora", "fruit rot"]
+    },
+    {
+      "class": "Tomato___Leaf_Mold",
+      "symptoms": [
+        "Pale green or yellow spots on upper leaf surface",
+        "Olive-green to brown mold on lower surface",
+        "Leaf curling and dropping",
+        "Reduced fruit production"
+      ],
+      "solutions": [
+        "Increase air circulation",
+        "Apply fungicides containing chlorothalonil",
+        "Reduce humidity",
+        "Use resistant varieties"
+      ],
+      "keywords": ["leaf mold", "pale green spots", "olive-green mold", "cladosporium"]
+    },
+    {
+      "class": "Tomato___Septoria_leaf_spot",
+      "symptoms": [
+        "Small, circular spots with gray centers on leaves",
+        "Dark borders around spots",
+        "Yellowing and death of leaves",
+        "Defoliation starting from bottom of plant"
+      ],
+      "solutions": [
+        "Apply fungicides containing chlorothalonil",
+        "Remove infected leaves",
+        "Mulch to prevent soil splash",
+        "Rotate crops"
+      ],
+      "keywords": ["septoria", "circular spots", "gray centers", "defoliation"]
+    },
+    {
+      "class": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "symptoms": [
+        "Fine yellow stippling on leaves",
+        "Fine webbing on undersides of leaves",
+        "Bronzing or yellowing of leaves",
+        "Leaf drop in severe cases"
+      ],
+      "solutions": [
+        "Spray with water to dislodge mites",
+        "Apply insecticidal soap or neem oil",
+        "Introduce predatory mites",
+        "Avoid broad-spectrum insecticides"
+      ],
+      "keywords": ["spider mites", "stippling", "webbing", "two-spotted", "yellowing"]
+    },
+    {
+      "class": "Tomato___Target_Spot",
+      "symptoms": [
+        "Circular lesions with concentric rings on leaves",
+        "Lesions with dark borders and light centers",
+        "Stem and fruit lesions",
+        "Defoliation in severe cases"
+      ],
+      "solutions": [
+        "Apply fungicides containing chlorothalonil",
+        "Remove infected plant material",
+        "Improve air circulation",
+        "Rotate crops"
+      ],
+      "keywords": ["target spot", "concentric rings", "corynespora", "lesions"]
+    },
+    {
+      "class": "Tomato___Tomato_mosaic_virus",
+      "symptoms": [
+        "Mottled light and dark green on leaves",
+        "Leaf curling and malformation",
+        "Stunted growth",
+        "Reduced fruit production and quality"
+      ],
+      "solutions": [
+        "Remove and destroy infected plants",
+        "Disinfect tools and hands",
+        "Control aphids (virus vectors)",
+        "Plant resistant varieties"
+      ],
+      "keywords": ["mosaic virus", "mottled", "leaf curl", "stunted", "tobacco mosaic virus"]
+    },
+    {
+      "class": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "symptoms": [
+        "Upward curling of leaves",
+        "Yellowing of leaves",
+        "Stunted growth",
+        "Reduced fruit production"
+      ],
+      "solutions": [
+        "Remove and destroy infected plants",
+        "Control whiteflies (virus vectors)",
+        "Use reflective mulches",
+        "Plant resistant varieties"
+      ],
+      "keywords": ["yellow leaf curl", "upward curling", "whiteflies", "tylcv", "stunted"]
+    }
+  ]
+}

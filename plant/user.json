@@ -1,0 +1,12 @@
+{
+    "admin": {
+        "password": "$2b$12$8FJHmDGDn8VcJgPZzOZwoeHXkQuMmJUtdVvGs/3yBjRCuBwS/rpjC",
+        "is_admin": true,
+        "id": 1
+    },
+    "Yagna": {
+        "password": "$2b$12$DlgJ1ZmORJHvM35pljkbYux7aHImcy71PkBut4Oo3E/X12ZgLZMtK",
+        "is_admin": false,
+        "id": 2
+    }
+}
